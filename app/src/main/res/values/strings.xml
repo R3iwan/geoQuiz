@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">geoQuiz</string>
+    <string name="question_text">
+        Astana is the capital of Kazakhstan
+    </string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="either_button">Either</string>
+    <string name="action_settings">Settings</string>
+</resources>
