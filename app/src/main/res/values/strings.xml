@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">geoQuiz</string>
-    <string name="question_text">
-        Astana is the capital of Kazakhstan
-    </string>
+    <string name="question_kazakhstan">Astana is the capital of Kazakhstan</string>
+    <string name="question_england">London is the capital of England</string>
+    <string name="question_denmark">Vena is the capital of Denmark</string>
+    <string name="question_spain">Barcelona is the capital of Spain</string>
+    <string name="question_usa">Washington is the capital of USA</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="action_settings">Settings</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string name="next_button">Next</string>
+    <string name="prev_button">Prev</string>
 </resources>
