@@ -83,6 +83,7 @@ class MainActivity : ComponentActivity() {
 
         cheatButton.setOnClickListener {
             val intent = Intent(this, CheatActivity::class.java)
+            intent.putExtra("key", "True")
             startActivity(intent)
         }
 
