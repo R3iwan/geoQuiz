@@ -57,6 +57,7 @@ class MainActivity : ComponentActivity() {
             }
         }
 
+
         nextButton.setOnClickListener {
             if (currentIndex < questionBank.size) {
                 currentIndex++

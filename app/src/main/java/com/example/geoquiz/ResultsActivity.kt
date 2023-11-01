@@ -17,6 +17,7 @@ class ResultsActivity : ComponentActivity(){
         val mainActivity = MainActivity()
         newTotalScore = mainActivity.totalScore
 
+
         showResultsButton.setOnClickListener{
             val toast = Toast.makeText(this, "Your Score is $newTotalScore", Toast.LENGTH_LONG).show()
         }
