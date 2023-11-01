@@ -13,7 +13,7 @@
         android:theme="@style/Theme.GeoQuiz"
         tools:targetApi="34">
         <activity
-            android:name=".CheatActivity"/>
+            android:name=".ResultsActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

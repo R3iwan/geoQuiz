@@ -52,10 +52,10 @@
 
     </LinearLayout>
     <Button
-        android:id="@+id/cheat_button"
+        android:id="@+id/results_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/cheat_button" />
+        android:text="@string/results_button" />
 
 </LinearLayout>
