@@ -1,6 +1,5 @@
 package com.example.geoquiz
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -11,12 +10,11 @@ class ResultsActivity : ComponentActivity(){
     private lateinit var showResultsButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cheat)
+        setContentView(R.layout.activity_result)
         showResultsButton = findViewById(R.id.show_results_button)
 
         val mainActivity = MainActivity()
         newTotalScore = mainActivity.totalScore
-
 
         showResultsButton.setOnClickListener{
             val toast = Toast.makeText(this, "Your Score is $newTotalScore", Toast.LENGTH_LONG).show()
